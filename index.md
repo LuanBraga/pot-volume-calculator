@@ -32,7 +32,7 @@
         <label for="roundPotDiameterInfSelect">Insira o diametro da base (cm)</label>
         <input class="form-control" id="roundPotDiameterInfSelect">
       </div>
-      <button onclick="calcRoundPotVol()" class="btn btn-primary marginator">Calcular</button>
+      <button onclick="calcRoundPotVol()" class="btn btn-primary">Calcular</button>
     </div>
     <div class="card-footer">
       <label for="displayRoundResult">Resultado</label>
@@ -57,7 +57,7 @@
         <label for="squarePotInfSelect">Insira o lado inferior (cm)</label>
         <input class="form-control" id="squarePotInfSelect"/>
       </div>
-      <button onclick="calcSquarePotVol()" class="btn btn-primary marginator">Calcular</button>
+      <button onclick="calcSquarePotVol()" class="btn btn-primary">Calcular</button>
     </div>
     <div class="card-footer">
       <label for="displaySquareResult">Resultado</label>

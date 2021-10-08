@@ -1,10 +1,13 @@
-<style>
-    .marginator {
-        margin: 1rem;
-    }
-</style>
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>potVolCalculator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
 
-
+</head>
+<body>
+<!-- partial:index.partial.html -->
 <div class="container">
   
   <nav aria-label="breadcrumb" class="marginator">
@@ -63,39 +66,9 @@
     </div>
   </div>
 </div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.2/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script><script  src="./script.js"></script>
 
-<script>
-    let roundPotHeightSelect =  document.getElementById('roundPotHeightSelect');
-let roundPotDiameterSupSelect =  document.getElementById('roundPotDiameterSupSelect');
-let roundPotDiameterInfSelect =  document.getElementById('roundPotDiameterInfSelect');
-
-let squarePotHeightSelect =  document.getElementById('squarePotHeightSelect');
-let squarePotSupSelect =  document.getElementById('squarePotSupSelect');
-let squarePotInfSelect =  document.getElementById('squarePotInfSelect');
-
-function calcRoundPotVol(){
-  let h = Number(roundPotHeightSelect.value);
-  let dS  = Number(roundPotDiameterSupSelect.value);
-  let dI = Number(roundPotDiameterInfSelect.value);
-  
-  const pi = Math.PI;
-  const med = (dS + dI) / 2;
-  const diam = (med / 2);
-  let vol = (((diam * diam) * pi) * h) * 0.001;
-  vol = Math.round(vol * 10.0) / 10.0;
-  
-  document.getElementById("displayRoundResult").placeholder = vol + ' Litros';
-}
-
-function calcSquarePotVol() {
-  let h = Number(squarePotHeightSelect.value);
-  let lS  = Number(squarePotSupSelect.value);
-  let lI = Number(squarePotInfSelect.value);
-  
-  const med = (lS + lI) / 2;
-  let vol = ((med * med) * h) * 0.001;
-  vol = Math.round(vol * 10.0) / 10.0;
-  
-  document.getElementById("displaySquareResult").placeholder = vol + ' Litros';
-}
-</script>
+</body>
+</html>

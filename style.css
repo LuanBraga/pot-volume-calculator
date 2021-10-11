@@ -1,3 +1,15 @@
+.breadcrumb {
+  align-items: baseline;
+  padding: 1rem 1rem ;
+  margin-bottom: 0rem;
+}
+
 .marginator {
   margin: 1rem;
+}
+
+.icon{
+  margin-left: .3rem;
+  font-size: 2rem;
+  color: rgb(109, 211, 7);
 }

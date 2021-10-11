@@ -13,3 +13,57 @@
   font-size: 2rem;
   color:  rgb(25 135 84);
 }
+
+body {
+  -webkit-animation: background 9s cubic-bezier(1,0,0,1) infinite;
+  animation: background 9s cubic-bezier(1,0,0,1) infinite;  
+}
+
+
+@-webkit-keyframes background {
+  0% { background-color: #e1baba; }
+  5% { background-color: #e1bac9; }
+  10% { background-color: #e1bad7; }
+  15% { background-color: #dfbae1; }
+  20% { background-color: #cdbae1; }
+  25% { background-color: #c1bae1; }
+  30% { background-color: #bac3e1; }
+  35% { background-color: #bad3e1; }
+  40% { background-color: #badee1; }
+  45% { background-color: #bae1d9; }
+  50% { background-color: #bae1d3; }
+  55% { background-color: #bae1c7; }
+  60% { background-color: #bae1c1; }
+  65% { background-color: #bbe1ba; }
+  70% { background-color: #c2e1ba; }
+  75% { background-color: #cae1ba; }
+  80% { background-color: #d3e1ba; }
+  85% { background-color: #dae1ba; }
+  90% { background-color: #e1e1ba; }
+  95% { background-color: #e1d6ba; }
+  100% { background-color: #e1baba; }
+}
+
+@keyframes background {
+  0% { background-color: #e1baba; }
+  5% { background-color: #e1bac9; }
+  10% { background-color: #e1bad7; }
+  15% { background-color: #dfbae1; }
+  20% { background-color: #cdbae1; }
+  25% { background-color: #c1bae1; }
+  30% { background-color: #bac3e1; }
+  35% { background-color: #bad3e1; }
+  40% { background-color: #badee1; }
+  45% { background-color: #bae1d9; }
+  50% { background-color: #bae1d3; }
+  55% { background-color: #bae1c7; }
+  60% { background-color: #bae1c1; }
+  65% { background-color: #bbe1ba; }
+  70% { background-color: #c2e1ba; }
+  75% { background-color: #cae1ba; }
+  80% { background-color: #d3e1ba; }
+  85% { background-color: #dae1ba; }
+  90% { background-color: #e1e1ba; }
+  95% { background-color: #e1d6ba; }
+  100% { background-color: #e1baba; }
+}

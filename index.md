@@ -1,5 +1,6 @@
 <html lang="en" >
   <head>
+    <link href="css/all.css" rel="stylesheet"> <!--load all styles -->
     <meta charset="UTF-8">
     <title>potVolCalculator</title>
     <meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
@@ -11,7 +12,8 @@
     
     <nav aria-label="breadcrumb" class="marginator">
       <ol class="breadcrumb">
-        <li class="breadcrumb-item active" aria-current="page">Pot Volume Calculator</li>
+        <li class="breadcrumb-item active" aria-current="page">Calcule o volume do seu vaso de plantas em litros</li>
+        <i class="fas fa-seedling icon"></i>
       </ol>
     </nav>
   
@@ -21,8 +23,11 @@
       </div>
       <div id="roundPotForm" class="card-body">
         <div class="form-group">
-          <label for="roundPotHeightInput">Insira a altura (cm)</label>
-          <input type="number" class="form-control" id="roundPotHeightInput"/>
+          <div>
+            <label for="roundPotHeightInput">Insira a altura (cm)</label>
+          </div>
+         
+          <input type="number" min="1" class="form-control" id="roundPotHeightInput"/>
         </div>
         <div class="form-group">
           <label for="roundPotDiameterSupInput">Insira o diametro do topo (cm)</label>
@@ -69,7 +74,7 @@
   </div>
   <!-- partial -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.2/js/bootstrap.min.js'></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script><script  src="./script.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script><script  src="./script.js"></script>
 
   </body>
 </html>
